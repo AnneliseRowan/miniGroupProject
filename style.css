@@ -1,0 +1,53 @@
+.header {
+    background-color: lightgray;;
+    padding: 20px; 
+    left: auto; 
+    border: 10px solid darkgrey
+}
+
+.links {
+    margin: 25px; 
+}
+
+.box {
+    background-color: darkgoldenrod;
+    padding: 50px; 
+    position: relative;
+}
+
+.contact {
+    background-color: turquoise;
+    padding: 20px; 
+}
+
+.me {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Rockwell", "Baskerville", "Times New Roman";
+    color: salmon; 
+}
+
+.image {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border: 20px solid darkred; 
+}
+
+.footer {
+    background-color: darkgrey;
+    font-family: "Rockwell", "Baskerville", "Times New Roman"; 
+    font-size: 30px; 
+    color: dark green; 
+    border: 10px dashed salmon; 
+    padding: 5px; 
+}
+
+.date {
+    text-align: right;
+}
