@@ -1,1 +1,1 @@
-# miniGroupProject
+Practice at combining html and css to create a more vivid website! 

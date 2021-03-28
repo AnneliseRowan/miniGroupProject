@@ -7,27 +7,42 @@
 </head>
 <body>
     <header class="header">
-
-        <a class="links" href="www.github.com">Github</a>
-        <a class="links" href="#">Portfolio</a>
-        <a class="links" href="#">Account</a>
-        
-
+        <nav class="on-right">
+            <ul>
+                <li><a href="www.github.com">Github</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Account</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section class="box">
         <h1 class="intro">My New Website!</h1>
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopenlab.citytech.cuny.edu%2Fsli-eportfolio%2Ffiles%2F2015%2F05%2FApr-30-color-composition-400-by-4001.gif&f=1&nofb=1" alt="raibow pixels" class="image">
-
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.psychologytoday.com%2Fassets%2Fstyles%2Fcrop_3_2_600x400%2Fpublic%2Ffield_blog_entry_teaser_image%2F2020-06%2Fhypnotic-image.jpg%3Fitok%3DRIa1AA2J&f=1&nofb=1" alt="hypnotism" class="image">
+        <figcaption class="description">Don't stare....you're getting very sleeeepy!</figcaption>
     </section>
 
     <section class="contact">
-        <p class="me">Look for me</p>
-
+        <p class="me">Look for me!!!!</p>
+        <form>
+            <ul>
+                <li>
+                    <label class="on-right" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                </li>
+                <li>
+                    <label class="on-right" for="email">Email:</label>
+                    <input type="text" id="email" name="user-email">
+                </li>
+            </ul>
+            <div class="centered">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
     </section>
 
     <footer class="footer">
-        <p class="date">2021 MyDesign</p>
+        <p class="date">© 2021 MyDesign</p>
     </footer>
     
 </body>
